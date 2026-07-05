@@ -973,6 +973,7 @@ flaws.
 
 
 | Packet type (Tigo naming) |
+|---------------------------|
 | `06` [EncapString Req]    |
 | `07` [EncapString Resp]   |
 | `09` [Report NetDiag]     |
