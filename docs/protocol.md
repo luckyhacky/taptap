@@ -971,6 +971,48 @@ flaws.
 | `31` [Power report](#power-report)                                        | 0    | 0               | 695057            |
 | `41` [Unknown 0x41](#unknown-0x41)                                        | 887  | 0               | 0                 |
 
+
+| Packet type (Tigo naming) |
+| `06` [EncapString Req]    |
+| `07` [EncapString Resp]   |
+| `09` [Report NetDiag]     |
+| `0D` [GatewayCfg Req]     |
+| `0E` [GatewayCfg Resp]    |
+| `0F` [Discovery Solicit]  |
+| `10` [DiscCfg Req]        |
+| `11` [Discovery Enable]   |
+| `13` [PeriodicCfg Write]  |
+| `14` [Report Combined]    |
+| `15` [DiscCfg Resp]       |
+| `17` [PeriodicCfg Req]    |
+| `18` [PeriodicCfg Resp]   |
+| `1D` [ResetNode Req]      |
+| `1E` [ResetNode Resp]     |
+| `22` [SamplingRate Req]   |
+| `23` [SamplingRate Resp]  |
+| `24` [Discovery Alien]    |
+| `26` [GetTable Req]       |
+| `27` [GetTable Resp]      |
+| `29` [SetTable Req]       |
+| `2A` [SetTable Resp]      |
+| `2B` [EraseFlash Req]     |
+| `2C` [EraseFlash Resp]    |
+| `2D` [DiscState Write]    |
+| `2E` [DiscState Req"]     |
+| `2F` [DiscState Resp]     |
+| `30` [Report NetDebug]    |
+| `31` [Report Power]       |
+| `40` [StarDisc Found]     |
+| `41` [StarDisc SetPgw]    |
+| `42` [StarDisc Own]       |
+| `43` [StarDisc Ignore]    |
+| `44` [StarDisc Kick]      |
+| `45` [Firmware Request]   |
+| `46` [Firmware Delivery]  |
+| `47` [StarDisc Status]    |
+| `50` [Fetch ChunkMap]     |
+
+
 ### Node table
 
 Gateways maintain a table of mesh nodes mapping 64-bit 802.15.4 long addresses to and from 16-bit PV node IDs. (Note
